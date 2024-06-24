@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebaseConfig';
-import { collection, getDocs, addDoc, updateDoc, deleteDoc } from 'firebase/firestore';
+import { collection, getDocs, addDoc, updateDoc, deleteDoc, doc } from 'firebase/firestore';
 
 const AdminDistributionPlans = () => {
   const [plans, setPlans] = useState([]);
