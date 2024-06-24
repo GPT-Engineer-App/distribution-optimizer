@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Index = () => {
+const Contact = () => {
   return (
     <div className="h-screen w-screen flex items-center justify-center">
       <div>
-        <h1 className="text-3xl text-center">Bienvenue sur l'application de distribution</h1>
+        <h1 className="text-3xl text-center">Contactez-nous</h1>
         <p className="text-center">
-          Connectez-vous pour accéder aux fonctionnalités.
+          Pour toute question, veuillez nous contacter à support@distributionapp.com.
         </p>
       </div>
     </div>
   );
 };
 
-export default Index;
+export default Contact;
